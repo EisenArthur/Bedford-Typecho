@@ -26,7 +26,7 @@
                   <div class="post-content"><?php $this->content(''); ?></div>
               </article>
             <?php endwhile; ?>
-            <?php if ($this->pageLink('下一页 &raquo;','next') || $this->pageLink('&laquo; 上一页')) : ?>
+              <?php if (($this->getTotal() / $this->parameter->pageSize) > 1) : ?>
               <div class="page-navigator clearfix">
                 <div class="in-mark">
                 <?php $this->pageLink('下一页 &raquo;','next'); ?>
