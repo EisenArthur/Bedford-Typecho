@@ -22,6 +22,7 @@ li p {
     margin-bottom: 0 !important;
 }
 ```
+And for `code` and `pre`, just add `p` tag for each line.
 
 ## ScreenShot
 ![ScreenShot](https://raw.githubusercontent.com/LjxPrime/bedford/master/screenshot.png)
