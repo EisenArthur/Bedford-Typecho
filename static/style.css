@@ -377,7 +377,7 @@ mark {
 #main {
   margin: 0 auto; }
 
-  .post-meta, .post-content p, .in-mark, .post-content pre code {
+  .post-meta, .post-content p, .in-mark, .post-content, pre, code {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
